@@ -25,7 +25,7 @@ function Works({workNumber}){
             <ul className="mt-6 flex flex-col gap-3">
               <li className="text-base flex flex-col gap-2 text-textDark">
                   {workPoints.map((desc, index) => (
-                    <div className="flex gap-2 items-center">
+                    <div key={index} className="flex gap-2 items-center">
                       <span>
                         <TiArrowForward className="text-textGreen"/>
                       </span>

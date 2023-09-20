@@ -79,7 +79,7 @@ function ProjectDesc() {
                             initial={animationBefore(index)}
                             whileInView={animationAfter(index)}
                             transition={{duration:1.2}}>
-                            <Image src={project.image} className='w-full object-contain' width={400} height={300}/>
+                            <Image src={project.image} alt="" className='w-full object-contain' width={400} height={300}/>
                         </motion.div>
                         <motion.div 
                             className={`w-full xl:w-1/2 flex flex-col gap-3 lgl: justify-between
