@@ -6,6 +6,7 @@ import LeftComponent from "@/components/LeftComponent";
 import RightComponent from "@/components/RightComponent";
 import {motion} from "framer-motion";
 import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -18,11 +19,12 @@ export default function Home() {
         <LeftComponent/>
       </motion.div>
 
-      <div className="h-[88vh] w-full mx-auto p-4">
+      <div className="h-[88vh] w-full mx-auto px-5 py-4">
         <Banner/>
         <About/>
         <Experience/>
         <Projects/>
+        <Contact/>
       </div>
 
       <motion.div 

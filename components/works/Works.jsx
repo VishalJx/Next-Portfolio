@@ -16,7 +16,7 @@ function Works({workNumber}){
     >
       {
         works[workNumber].map((work, index) => (
-          <div key={index}>
+          <div key={index} className="">
             <h3 className="flex gap-1 font-medium text-xl font-titleFont">
               {work.title} 
               <span className="text-textGreen tracking-wide">@{work.company}</span>
