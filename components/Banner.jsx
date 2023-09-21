@@ -1,5 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
+import { bannerAbout } from "@/data";
 
 function Banner(){
   return (
@@ -25,7 +26,7 @@ function Banner(){
             transition={{delay: 0.5, duration: 0.6}}
             className="text-base md:max-w-[650px] text-textDark font-medium">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi iste obcaecati numquam, aperiam soluta omnis illum nobis quidem minima voluptas eaque neque saepe autem perspiciatis porro reiciendis distinctio quo.{" "}
+            {bannerAbout}
             {/* <a href=""><span>Learn more..</span></a> */}
         </motion.p>
         <motion.button 

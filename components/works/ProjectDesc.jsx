@@ -6,8 +6,6 @@ import {motion} from 'framer-motion'
 
 function ProjectDesc() {
 
-    const tech = projects[0].tech;
-
     let animationBefore=(index) => {
         if(index%2==0){
             return{
@@ -73,7 +71,7 @@ function ProjectDesc() {
         {
             projects.map((project, index) =>{
                 return(
-                    <div key={index}  className={`${index%2 ==0 ?"flex flex-row":" flex flex-row-reverse "} w-full justify-center items-center`}>
+                    <div key={index}  className={`${index%2 ==0 ?"flex flex-row":" flex flex-row-reverse "}w-full justify-center items-center`}>
                         <motion.div 
                             className={`w-full xl:w-1/2 h-auto relative group ${index%2==0?"mr-0":"-mr-12"}`}
                             initial={animationBefore(index)}
@@ -82,7 +80,7 @@ function ProjectDesc() {
                             <Image src={project.image} alt="" className='w-full object-contain' width={400} height={300}/>
                         </motion.div>
                         <motion.div 
-                            className={`w-full xl:w-1/2 flex flex-col gap-3 lgl: justify-between
+                            className={`w-full xl:w-1/2 flex flex-col gap-4 lgl: justify-between
                                         items-end text-right xl: ${index%2==0?"-ml-16":"-mr-16"} z-20`}
                             initial={animation2Before(index)}
                             whileInView={animation2After(index)}
@@ -97,7 +95,7 @@ function ProjectDesc() {
                             <ul className={`text-xs justify-end md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5
                                 -justify-between text-textDark ${index%2 ==1?"mr-20":"mr-0"}`}>
                                 {
-                                    tech.map((tag, index) =>{
+                                    projects[index].tech.map((tag, index) =>{
                                         return(
                                             <li key={index}>{tag}</li>
                                         )

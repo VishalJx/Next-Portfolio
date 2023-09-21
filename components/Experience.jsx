@@ -11,15 +11,12 @@ function Experience(){
 
   const handleWork = (e) => {
     if(e.target.textContent === "RA Creators"){
-      console.log("RA Creators");
       setData(0);
     }
-    else if(e.target.textContent === "Apple"){
-      console.log("Apple");
+    else if(e.target.textContent === "GSSoC"){
       setData(1);
     }
     else if(e.target.textContent === "Google"){
-      console.log("Google");
       setData(2);
     }
     setHighlight(!highlight);
@@ -27,7 +24,7 @@ function Experience(){
   }
 
   return (
-    <section id="experience" className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8">
+    <section id="experience" className="max-w-containerxs mx-auto py-12 lgl:py-20 flex flex-col gap-8">
       <SectionTitle title="Experience" />
       <motion.div 
         className= "w-full mt-10 flex flex-col md:flex-row gap-16"
