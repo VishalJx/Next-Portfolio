@@ -95,7 +95,7 @@ function Navbar(){
                 transition={{duration: 1.2}}
                 className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen hover:text-bodyColor cursor-pointer duration-300"
                 >
-                <a href={resume}>Resume</a>
+                <a href={resume} target="_blank">Resume</a>
             </motion.button>
           </ul>
         </div>
@@ -194,7 +194,7 @@ function Navbar(){
                               transition={{duration: 1.2, ease:"easeIn"}}
                               className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen hover:text-bodyColor cursor-pointer duration-300"
                               >
-                            <a href={resume}>Resume</a>
+                            <a href={resume} target="_blank">Resume</a>
                           </motion.button>
                         </ul>
                   </div>
