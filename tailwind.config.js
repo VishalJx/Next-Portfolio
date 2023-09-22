@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        customLight: '0px 0px 20px rgba(0, 0, 0, 0.09)',
+        customDark: '0px 0px 20px rgba(0, 0, 0, 0.2)',
+      },
       maxWidth:{
         conatiner: "1440px",
         contentContainer: "1140px",
@@ -44,5 +48,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
