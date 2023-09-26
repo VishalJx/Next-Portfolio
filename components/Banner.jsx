@@ -29,12 +29,14 @@ function Banner(){
             {bannerAbout}
             {/* <a href=""><span>Learn more..</span></a> */}
         </motion.p>
-        <motion.button 
-            initial={{opacity: 0, y:10}}
-            animate={{opacity: 1, y:0}}
-            transition={{delay: 0.5, duration: 0.6}}
-            className="w-52 h-14 text-sm font-titleFont border border-textGreen
-            rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">Check out my Projects!</motion.button>
+          <motion.a
+              href="https://github.com/VishalJx"
+              target="_blank"
+              initial={{opacity: 0, y:10}}
+              animate={{opacity: 1, y:0}}
+              transition={{delay: 0.5, duration: 0.6}}
+              className="w-52 h-14 text-sm flex justify-center items-center font-titleFont border border-textGreen
+              rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">Check out my Projects!</motion.a>
     </section>
   )
 };

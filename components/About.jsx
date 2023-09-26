@@ -42,10 +42,10 @@ function About(){
 	return (
 		<section id="about" className="max-w-containerSmall mx-auto py-7 lgl:py-32 flex flex-col gap-8">
 			<SectionTitle title="About Me"/>
-			<div className="flex flex-col lgl:flex-row gap-16 md:flex-col-reverse">
+			<div className="flex flex-col lgl:flex-row gap-16 xs:flex-col-reverse md:flex-col-reverse">
 				<div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
 					<motion.p 
-						className=" text-textDark font-medium"
+						className=" text-textDark font-medium xs:text-justify md:text-left"
 						initial={{opacity: 0, x: -30}}
 						whileInView={{opacity: 1, x: 0}}
 						transition={{duration: 0.8}}
@@ -84,7 +84,7 @@ function About(){
 
 				<div className="w-full lgl:w-1/3 h-80 relative group">
 					<div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
-						<div className="w-full h-full relative flex pl-6 lgl:pl-0">
+						<div className="w-full h-full relative flex pl-6 lgl:pl-0 xs:ml-6 md:ml-0">
 							<Image src={avatar} alt="avatar" layout="fill" className="rounded-lg h-full object-contain z-20"/>
 							<motion.div 
 								initial={{y:-20,opacity: 1}}
@@ -97,7 +97,7 @@ function About(){
 								initial={{x:20,opacity: 0}}
 								whileInView={{x:0,opacity: 1}}
 								transition={{duration: 1}}
-								className="lgl:inline-block relative w-full h-80 border-2 border-textGreen
+								className="hidden lgl:inline-block relative w-full h-80 border-2 border-textGreen
 								rounded-md -z-30 top-3 left-3 lgl:group-hover:-translate-x-2 lgl:group-hover:-translate-y-2
 								transition-transform duration-300">
 							</motion.div>
