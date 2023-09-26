@@ -73,11 +73,11 @@ function ProjectDesc() {
                 return(
                     <div key={index}  className={`${index%2 ==0 ?"flex md:flex-row ":"flex md:flex-row-reverse "}w-full sm:flex-col justify-center items-center`}>
                         <motion.div 
-                            className={`w-full xl:w-1/2 h-auto relative group ${index%2==0?"mr-0 xs:mr-6":"-mr-12 xs:-mr-4"}`}
+                            className={`w-full xl:w-1/2 h-auto relative group`}
                             initial={animationBefore(index)}
                             whileInView={animationAfter(index)}
                             transition={{duration:1.2}}>
-                            <Image src={project.image} alt="" className='w-full object-contain' width={400} height={300}/>
+                            <Image src={project.image} alt="" className={`w-full object-contain ${index%2==0?"md:ml-16 xs:-ml-3":"md:-ml-16 xs:ml-3"}`} width={400} height={300}/>
                         </motion.div>
                         <motion.div 
                             className={`w-full xl:w-1/2 flex flex-col gap-4 lgl: justify-between
@@ -85,15 +85,15 @@ function ProjectDesc() {
                             initial={animation2Before(index)}
                             whileInView={animation2After(index)}
                             transition={{duration:1.2}}>
-                            <div className={`xs:w-full xs:flex xs:flex-col justify-center ${index%2 ==0?"md:mr-0":"md:mr-4"} md:w-2/5 md:items-end`}>
+                            <div className={`xs:w-full xs:flex xs:flex-col justify-center ${index%2 ==0?"md:mr-0":"md:mr-20"} md:w-2/5 md:items-end`}>
                                 <p className={`font-titleFont text-textGreen text-sm tracking-wide xs:text-center xs:mx-auto md:mx-0`}>
                                     Featured Project
                                 </p>
-                                <h3 className={`text-2xl font-bolder text-end mt-0 ${index%2 ==0?"mr-0":"mr-0"} xs:text-center`}>{project.title}</h3>
+                                <h3 className={`text-2xl font-bolder text-end mt-0 mr-0 xs:text-center`}>{project.title}</h3>
                             </div>
-                            <p className={`bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xs:text-justify xs:mx-auto ${index%2==0? "md:mr-0":"md:mr-2"}`}>{project.description}</p>
+                            <p className={`bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xs:text-justify`}>{project.description}</p>
                             <ul className={`text-xs justify-end md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5
-                                -justify-between text-textDark ${index%2 ==1?"mr-20":"mr-0"} xs:mx-auto md:mx-0`}>
+                                -justify-between text-textDark ${index%2 ==0?"md:mr-0":"md:mr-20"} xs:mx-auto md:mx-0`}>
                                 {
                                     projects[index].tech.map((tag, index) =>{
                                         return(
@@ -102,7 +102,7 @@ function ProjectDesc() {
                                     })
                                 }
                             </ul>
-                            <div className={`flex gap-4 text-lg ${index%2 ==0?"mr-20":"mr-0"} xs:mx-auto md:mx-0`} >
+                            <div className={`flex gap-4 text-lg ${index%2 ==0?"md:mr-0":"md:mr-20"} xs:mx-auto md:mx-0`} >
                                 <a href={project.github} target='_blank'>
                                     <FaGithub className=' text-textDark hover:text-textGreen duration-300'/>
                                 </a>
