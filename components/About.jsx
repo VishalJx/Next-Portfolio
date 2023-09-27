@@ -82,10 +82,14 @@ function About(){
 					</div>
 				</div>
 
-				<div className="w-full lgl:w-1/3 h-80 relative group">
+				<motion.div 
+				initial={{opacity: 0}}
+				animate={{opacity: 1}}
+				transition={{duration: 2}}
+				className="w-full lgl:w-1/3 h-80 relative group">
 					<div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
 						<div className="w-full h-full relative flex pl-6 lgl:pl-0 xs:ml-6 md:ml-0">
-							<Image src={avatar} alt="avatar" layout="fill" className="rounded-lg h-full object-contain z-20"/>
+							<Image src={avatar} alt="avatar" layout="fill" className="rounded-lg h-full object-contain z-20 transition"/>
 							<motion.div 
 								initial={{y:-20,opacity: 1}}
 								whileInView={{y:0,opacity: 1}}
@@ -103,7 +107,7 @@ function About(){
 							</motion.div>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 			
 		</section>

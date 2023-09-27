@@ -28,9 +28,9 @@ function Experience(){
       <SectionTitle title="Experience" />
       <motion.div 
         className= "w-full mt-10 flex flex-col md:flex-row gap-16"
-        initial={{y:-10 ,opacity:0}}
+        initial={{y:-15 ,opacity:0}}
         whileInView={{y:0, opacity:1}}
-        transition={{duration:1.5}}
+        transition={{duration:2}}
         >
         <ul className=" md:w-35 flex flex-col">
           {
