@@ -80,7 +80,7 @@ export const projects =[
       description: "Developed a real-time chatting application using NodeJs and ReactJs, with Web-Socket support for seamless messaging. Implemented essential features such as user authentication, profile picture uploads, and logout functionality.",
       github: "https://github.com",
       deploy: "https://chat-us.onrender.com/",
-      image: "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png",
+      image: "https://res.cloudinary.com/dj4n062to/image/upload/v1702048871/ChatUs_jxj0nu.png",
       tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB","CSS"]
 
    },
@@ -90,7 +90,7 @@ export const projects =[
       description: "Engineered an authentic Instagram clone with user authentication using NodeJS for the backend and ReactJS for the frontend. Employed JSON Web Tokens (JWT) for secure user authentication and stored user data in a MongoDB database.",
       github: "https://github.com",
       deploy: "https://thankful-shorts-tuna.cyclic.app/signup",
-      image: "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png",
+      image: "https://res.cloudinary.com/dj4n062to/image/upload/v1702048871/Insta_xrzvbr.png",
       tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB","CSS"]
    },
    {
@@ -99,7 +99,7 @@ export const projects =[
       description: "Developed a cutting-edge REST API to showcase the seamless CRUD functionality of websites. Implemented with NodeJS as the backend and MongoDB as the database, eliminating the need for user signup or login. Created a user-friendly frontend using ReactJS and Bootstrap, ensuring an attractive user interface.",
       github: "https://github.com",
       deploy: "https://book-crud-app.onrender.com/",
-      image: "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png",
+      image: "https://res.cloudinary.com/dj4n062to/image/upload/v1702048872/Books-CRUD_mmoy8r.png",
       tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB","BootStrap"]
    },
    {
@@ -108,7 +108,7 @@ export const projects =[
       description: "Designed and crafted an impressive Personal Web Portfolio using ReactJS and CSS, showcasing skills and achievements. Elevated the presentation of the resume, capturing attention with an attractive and modern layout.",
       github: "https://github.com",
       deploy: "https://vishaljxo.netlify.app/",
-      image: "https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png",
+      image: "https://res.cloudinary.com/dj4n062to/image/upload/v1702048874/Portfolio_bhgcmp.png",
       tech: ["ReactJs", "CSS"]
    },
 
