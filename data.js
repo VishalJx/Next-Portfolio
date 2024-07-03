@@ -1,7 +1,7 @@
 
 export let basics=[]
 
-export const resume = "https://drive.google.com/file/d/1M4LRwFn0Ds0cPCjzwc8Gw0PVwzM5fk-I/view?usp=sharing"
+export const resume = "https://drive.google.com/file/d/1QriH-KA9rMEC866mccwogA3HqYJigJee/view?usp=drive_link"
     
 export let about="I am a passionate computer science enthusiast and a full stack developer(MERN + NextJs) at IIIT-Bhopal pursuing CSE. I have a strong interest in technology and I am always eager to learn new things. As a learner, I constantly seek out challenges and opportunities to grow both personally and professionally. My fields of interest includes Web Development, Cybersecurity, AI and Robotics.";
 
