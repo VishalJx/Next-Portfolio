@@ -1,7 +1,7 @@
 
 export let basics=[]
 
-export const resume = "https://drive.google.com/file/d/1J1qQ3FfnCouBl533-SjvHmTaOsBT4FRp/view?usp=drive_link"
+export const resume = "https://drive.google.com/file/d/1jo4qfDfVZwMGjn3FdlraW8wMNnpYNDzP/view"
     
 export let about="I am a passionate computer science enthusiast and a full stack developer(MERN + NextJs) at IIIT-Bhopal pursuing CSE. I have a strong interest in technology and I am always eager to learn new things. As a learner, I constantly seek out challenges and opportunities to grow both personally and professionally. My fields of interest includes Web Development, Cybersecurity, AI and Robotics.";
 
@@ -56,7 +56,7 @@ export const works= [
    }],
 
 [
-      {
+   {
       id: 2,
       title: "Software Developement Engineering Intern",
       company: "Appointy Tech",
@@ -92,10 +92,18 @@ export const works= [
 export const workPlaces = [
    {
       id : 1,
-      company: "RA Creators"
+      company: "GSSoC",
    },
    {
       id : 2,
+      company: "GSSoC",
+   },
+   {
+      id : 3,
+      company: "RA Creators"
+   },
+   {
+      id : 4,
       company: "GSSoC"
    },
 ]
