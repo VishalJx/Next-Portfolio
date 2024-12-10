@@ -13,7 +13,7 @@ function Experience(){
     if(e.target.textContent === "Agrivision4U"){
       setData(0);
     }
-    else if(e.target.textContent === "Appointy Tech"){
+    else if(e.target.textContent === "Appointy"){
       setData(1);
     }
     else if(e.target.textContent === "RA Creators"){

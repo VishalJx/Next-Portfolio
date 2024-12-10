@@ -92,11 +92,11 @@ export const works= [
 export const workPlaces = [
    {
       id : 1,
-      company: "GSSoC",
+      company: "Agrivision4U",
    },
    {
       id : 2,
-      company: "GSSoC",
+      company: "Appointy",
    },
    {
       id : 3,
