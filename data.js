@@ -59,7 +59,7 @@ export const works= [
    {
       id: 2,
       title: "Software Developement Engineering Intern",
-      company: "Appointy Tech",
+      company: "Appointy",
       date: "May 2024 – July 2024",
       points: [
          "Collaborated with the AI team to develop MVP for an automated Meeting Note Taking AI bot, capable of speaker diarization and identifying over 6+ distinct speakers in real-time meetings",
@@ -111,6 +111,15 @@ export const workPlaces = [
 export const projects =[
    {
       id : 1,
+      title: "Speech Transcription with User Diarization",
+      description: "Speech transcription system with user diarization that leverages machine learning technologies to provide precise, speaker-labeled transcripts. By integrating OpenAI's Whisper and advanced speaker recognition techniques, the project delivers high-quality transcription that can distinguish between multiple speakers in complex audio environments.",
+      github: "https://github.com/VishalJx/Advanced-Transcription",
+      deploy: "#",
+      image: "/diarisation.png",
+      tech: ["FastAPI", "WhisperX", "NextJs", "Python"]
+   },
+   {
+      id : 2,
       title: "Real Time Code Editor",
       description: "Developed a Real-time coding editor using NextJs for the frontend, incorporating TailwindCSS and leveraging web sockets for seamless real-time communication. The backend, powered by NodeJs and ExpressJs, ensures a robust foundation",
       github: "https://github.com/VishalJx/Real-T-Editor",
@@ -120,7 +129,7 @@ export const projects =[
 
    },
    {
-      id : 2,
+      id : 3,
       title: "Chat-Us",
       description: "Developed a real-time chatting application using NodeJs and ReactJs, with Web-Socket support for seamless messaging. Implemented essential features such as user authentication, profile picture uploads, and logout functionality.",
       github: "https://github.com",
@@ -130,7 +139,7 @@ export const projects =[
 
    },
    {
-      id : 3,  
+      id : 4,  
       title: "Instagram-Clone",
       description: "Engineered an authentic Instagram clone with user authentication using NodeJS for the backend and ReactJS for the frontend. Employed JSON Web Tokens (JWT) for secure user authentication and stored user data in a MongoDB database.",
       github: "https://github.com",
@@ -139,7 +148,7 @@ export const projects =[
       tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB","CSS"]
    },
    {
-      id : 4,  
+      id : 5,  
       title: "Book-CRUD",
       description: "Developed a cutting-edge REST API to showcase the seamless CRUD functionality of websites. Implemented with NodeJS as the backend and MongoDB as the database, eliminating the need for user signup or login. Created a user-friendly frontend using ReactJS and Bootstrap, ensuring an attractive user interface.",
       github: "https://github.com",
@@ -148,7 +157,7 @@ export const projects =[
       tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB","BootStrap"]
    },
    {
-      id : 5,  
+      id : 6,  
       title: "React-Portfolio",
       description: "Designed and crafted an impressive Personal Web Portfolio using ReactJS and CSS, showcasing skills and achievements. Elevated the presentation of the resume, capturing attention with an attractive and modern layout.",
       github: "https://github.com",
