@@ -12,6 +12,7 @@
 /.next/
 /out/
 
+/vscode
 
 # misc
 .DS_Store

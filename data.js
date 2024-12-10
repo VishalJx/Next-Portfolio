@@ -19,39 +19,65 @@ export const skillData = [
  ]},
  { category: "Backend",
  skills:[
+   "net/http",
     "NodeJs",
     "ExpressJs",
     "MongoDB",
+    "Postgres"
  ]},
  { category: "Languages",
  skills:[
+      "Golang",
      "C/C++",
-     "JavaScript",
+     "JavaScript/TypeScript",
      "Python",
      "SQL",
  ]},
  { category: "Others",
  skills:[
     "Git/Github",
-    "Apollo(GraphQL)",
-
+    "GraphQL",
+   "Linux"
  ]}
 ]
 
 /* Work Experience Data */
 export const works= [
+[
+   {
+      id: 1,
+      title:"Software Development Engineering Intern",
+      company: "Agrivision4U",
+      date: "Sept 2024 – Nov 2024",
+      points: [
+         "Developed responsive frontend for seed funded edtech platform- Enest using Next.js, closely following Figma design references with more than 30+ pages.",
+         "Implemented robust API integrations with Express.js, including authentication systems capable of handling 1000+ concurrent users with efficient rate limiting",
+      ]
+   }],
+
+[
+      {
+      id: 2,
+      title: "Software Developement Engineering Intern",
+      company: "Appointy Tech",
+      date: "May 2024 – July 2024",
+      points: [
+         "Collaborated with the AI team to develop MVP for an automated Meeting Note Taking AI bot, capable of speaker diarization and identifying over 6+ distinct speakers in real-time meetings",
+         "Explored Golang frameworks/libraries like net/http, Gin and Fiber as part of understanding backend development practices, experimenting with basic implementations to evaluate their performance and usability on production level.",
+      ]
+   }],   
 [      {
-         id : 1,
+         id : 3,
          title: "Full Stack Developer",
          company: "RA Creators",
          date: "June 2023 - Aug 2023",
          points : [
-            "Spearheaded the development of an impactful e-commerce website, SutPitaara, as a key member of RA Creators firm.            ",
+            "Spearheaded the development of an impactful e-commerce website, SutPitaara, as a key member of RA Creators firm.",
             "Leveraged ReactJs for the dynamic front-end and harnessed Python’s Django for the robust back-end for JWT authentication.",
          ]
       }],
 [      {
-         id : 2,
+         id : 4,
          title: "Contributor",
          company: "GSSoC",
          date: "May 2023 - Aug 2023",
