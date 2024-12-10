@@ -10,14 +10,20 @@ function Experience(){
   const [highlight, setHighlight] = useState(true);
 
   const handleWork = (e) => {
-    if(e.target.textContent === "RA Creators"){
+    if(e.target.textContent === "Agrivision4U"){
       setData(0);
     }
-    else if(e.target.textContent === "GSSoC"){
+    else if(e.target.textContent === "Appointy Tech"){
       setData(1);
     }
-    else if(e.target.textContent === "Google"){
+    else if(e.target.textContent === "RA Creators"){
       setData(2);
+    }
+    else if(e.target.textContent === "GSSoC"){
+      setData(3);
+    }
+    else if(e.target.textContent === "Google"){
+      setData(4);
     }
     setHighlight(!highlight);
 
