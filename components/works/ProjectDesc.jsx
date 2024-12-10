@@ -85,7 +85,7 @@ function ProjectDesc() {
                             initial={animation2Before(index)}
                             whileInView={animation2After(index)}
                             transition={{duration:1.2}}>
-                            <div className={`xs:w-full xs:flex xs:flex-col justify-center ${index%2 ==0?"md:mr-0":"md:mr-20"} md:w-2/5 md:items-end`}>
+                            <div className={`xs:w-full xs:flex xs:flex-col justify-center ${index%2 ==0?"md:mr-0":"md:mr-20"} md:w-3/5 md:items-end`}>
                                 <p className={`font-titleFont text-textGreen text-sm tracking-wide xs:text-center xs:mx-auto md:mx-0`}>
                                     Featured Project
                                 </p>
